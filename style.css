@@ -1,5 +1,5 @@
 body{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";background-color: black}
-#calculator{height: 700px;margin: 0 auto;top: 20px;position: relative;border-radius: 5px;background-color:black;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+#calculator{height: 600px;margin: 0 auto;top: 20px;position: relative;border-radius: 5px;background-color:black; }
 .color{
 	background-color: #A4A1A1;
 	height: 100px;
@@ -15,6 +15,7 @@ body{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New
 	width: 100px;
 	border-radius: 50%;
 	font-size: 2em;
+	font-size: 2.5em;
 }
 .number{
 	color: white;
@@ -35,7 +36,7 @@ body{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New
 	color: white;
 }
 .number:hover{
-	background-color: #434242
+	background-color: #434242;
 }
 .orange:hover {background-color: #F1B361}
 .color:hover{background-color:#C0C0BB}
@@ -44,15 +45,53 @@ body{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New
 	text-align: right;
 	height:70px;
 	line-height: 70px;
-	padding: 16px 8px;font-size: 2em;
+	padding: 16px 8px;
+	font-size: 2.5em;
 	background-color: black;
 	color: white;
 	margin-left: 517px;
 	border-radius: 10px;
 	position: relative;
-	font-size: 2.5em;
+	
 }
 .orange:active{
 	background-color: white;
 	color:#F58702;
 }
+#space-invader {
+      box-shadow: 0 0 0 1em red,
+      0 1em 0 1em red,
+      -2.5em 1.5em 0 .5em red,
+      2.5em 1.5em 0 .5em red,
+      -3em -3em 0 0 red,
+      3em -3em 0 0 red,
+      -2em -2em 0 0 red,
+      2em -2em 0 0 red,
+      -3em -1em 0 0 red,
+      -2em -1em 0 0 red,
+      2em -1em 0 0 red,
+      3em -1em 0 0 red,
+      -4em 0 0 0 red,
+      -3em 0 0 0 red,
+      3em 0 0 0 red,
+      4em 0 0 0 red,
+      -5em 1em 0 0 red,
+      -4em 1em 0 0 red,
+      4em 1em 0 0 red,
+      5em 1em 0 0 red,
+      -5em 2em 0 0 red,
+      5em 2em 0 0 red,
+      -5em 3em 0 0 red,
+      -3em 3em 0 0 red,
+      3em 3em 0 0 red,
+      5em 3em 0 0 red,
+      -2em 4em 0 0 red,
+      -1em 4em 0 0 red,
+      1em 4em 0 0 red,
+      2em 4em 0 0 red;
+      background: red;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      margin: 50px 0 750px 65px;
+    }
